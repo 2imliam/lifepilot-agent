@@ -1,0 +1,19 @@
+{
+    "case_id": "note_summary_001",
+    "title": "Summarize personal project notes",
+    "input": "Summarize my project notes.",
+    "expected_skill": "note-summarization",
+    "expected_tools": [
+        "read_notes",
+        "summarize_notes_basic"
+    ],
+    "expected_behavior": [
+        "Read local notes",
+        "Summarize key points",
+        "Extract action items"
+    ],
+    "must_not_do": [
+        "Expose private credentials",
+        "Summarize unavailable notes"
+    ]
+}

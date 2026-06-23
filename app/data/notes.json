@@ -1,0 +1,7 @@
+[
+    {
+        "id": 1,
+        "title": "Kaggle Project Notes",
+        "content": "I need to build a personal AI assistant using ADK. The assistant should plan my day, prioritize tasks, summarize notes, and create safe reminder drafts. I also need a README, demo video, architecture diagram, and evaluation cases."
+    }
+]

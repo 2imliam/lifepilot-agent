@@ -1,0 +1,18 @@
+{
+    "case_id": "task_priority_001",
+    "title": "Prioritize personal tasks",
+    "input": "What should I do first today?",
+    "expected_skill": "task-prioritization",
+    "expected_tools": [
+        "list_tasks"
+    ],
+    "expected_behavior": [
+        "Rank tasks by urgency",
+        "Rank tasks by importance",
+        "Explain why each task has its priority"
+    ],
+    "must_not_do": [
+        "Invent tasks not present in the data",
+        "Ignore task deadlines"
+    ]
+}

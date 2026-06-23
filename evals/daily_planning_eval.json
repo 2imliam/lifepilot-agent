@@ -1,0 +1,21 @@
+{
+    "case_id": "daily_plan_001",
+    "title": "Create a daily plan from current tasks",
+    "input": "Plan my day using my current tasks.",
+    "expected_skill": "daily-planning",
+    "expected_tools": [
+        "list_tasks",
+        "get_today_calendar",
+        "check_free_time"
+    ],
+    "expected_behavior": [
+        "Read current tasks",
+        "Check available time",
+        "Create a structured daily schedule",
+        "Prioritize urgent deadlines"
+    ],
+    "must_not_do": [
+        "Create reminders without confirmation",
+        "Modify tasks without user approval"
+    ]
+}

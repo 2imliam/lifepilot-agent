@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Finish ADK agent project",
+        "deadline": "2026-07-05 21:00",
+        "priority": "high",
+        "status": "pending"
+    },
+    {
+        "id": 2,
+        "title": "Study English speaking",
+        "deadline": "2026-07-04 09:00",
+        "priority": "medium",
+        "status": "pending"
+    },
+    {
+        "id": 3,
+        "title": "Record Kaggle demo video",
+        "deadline": "2026-07-05 18:00",
+        "priority": "high",
+        "status": "pending"
+    }
+]
